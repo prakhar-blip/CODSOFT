@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CalcEase - Simple Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>CalcEase</h1>
+            <p>Your Simple Solution for Quick Calculations</p>
+        </header>
+
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <div class="row">
+                <button class="button" onclick="appendToDisplay('7')">7</button>
+                <button class="button" onclick="appendToDisplay('8')">8</button>
+                <button class="button" onclick="appendToDisplay('9')">9</button>
+                <button class="button operator" onclick="appendToDisplay('/')">÷</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="appendToDisplay('4')">4</button>
+                <button class="button" onclick="appendToDisplay('5')">5</button>
+                <button class="button" onclick="appendToDisplay('6')">6</button>
+                <button class="button operator" onclick="appendToDisplay('*')">×</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="appendToDisplay('1')">1</button>
+                <button class="button" onclick="appendToDisplay('2')">2</button>
+                <button class="button" onclick="appendToDisplay('3')">3</button>
+                <button class="button operator" onclick="appendToDisplay('-')">−</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="appendToDisplay('0')">0</button>
+                <button class="button" onclick="appendToDisplay('.')">.</button>
+                <button class="button equal" onclick="calculate()">=</button>
+                <button class="button operator" onclick="appendToDisplay('+')">+</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="clearDisplay()">C</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Created with ❤ by Prakhar Sharma</p>
+            <p>
+                <a href="https://www.linkedin.com/in/prakhar-sharma-%F0%9F%9A%80-70083b283/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/prakhar-blip" target="_blank">GitHub</a> |
+                <a href="https://api.whatsapp.com/send/?phone=9098879642&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
+            </p>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
