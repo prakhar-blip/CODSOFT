@@ -13,7 +13,7 @@ You can view the website [here](https://prakharsharma2.netlify.app/).
 
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/prakhar-blip/CODSOFT-and-Tech-Alpha-Personal_Portfolio_Website.git`
+1. Clone the repository: `git clone https://github.com/prakhar-blip/CODSOFT/tree/main/PERSONAL%20PORTFOLIO%20WEBSITE`
 2. Open `index.html` in your web browser to view the website.
 
 ## Usage
@@ -24,6 +24,6 @@ You can view the website [here](https://prakharsharma2.netlify.app/).
 
 ## Credits
 - Developed by [Prakhar Sharma](https://github.com/prakhar-blip)
-- Task assigned by CodSoft and Tech Alpha during web development internships.
+- Task assigned by CodSoft and during web development internships.
 
 
